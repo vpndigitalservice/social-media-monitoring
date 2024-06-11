@@ -1,9 +1,10 @@
+"use client"
 import react from 'react';
 
 function Footer() {
     return (
-        <footer className="footer p-10 bg-neutral text-neutral-content flex justify-center">
-        <div className="flex flex-col md:flex-row justify-between w-full max-w-5xl">
+        <footer className="footer p-10 bg-neutral text-neutral-content flex justify-center" style={{backgroundColor : '#4D869C'}}>
+        <div className="flex flex-col md:flex-row justify-between w-full max-w-5xl text-white">
           <nav className="mb-4 md:mb-0 md:mr-8">
             <h6 className="footer-title">Services</h6>
             <a className="link link-hover">Service 1</a><br/>

@@ -1,3 +1,4 @@
+"use client"
 import react from 'react'
 import logo from '../public/logo.jpg'
 import Image from 'next/image';
@@ -5,7 +6,7 @@ import { FaHome } from "react-icons/fa";
 
 function Navbar() {
     return (
-        <div className="navbar bg-base-100 ">
+        <div className="navbar bg-base-100" style={{ backgroundColor: "#CDE8E5" }}>
             <div className="flex-none">
             <div className="dropdown dropdown-end mt-3 ml-5">
               
@@ -27,7 +28,7 @@ function Navbar() {
             </div>
             <div className='flex-none'>
               
-                <a className="btn btn-ghost text-xl mr-3">  <FaHome /> Home</a>
+                <a className="btn btn-ghost text-xl text-slate-600 mr-3">  <FaHome /> Home</a>
             </div>
         </div>
     );
