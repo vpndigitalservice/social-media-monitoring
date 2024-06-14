@@ -2,8 +2,9 @@
 import react from 'react'
 import logo from '../public/logo.jpg'
 import Image from 'next/image';
-import { FaHome } from "react-icons/fa";
 
+import Link from 'next/link';
+import { MdSpaceDashboard } from "react-icons/md";
 function Navbar() {
     return (
         <div className="navbar bg-base-100 shadow-xl" style={{ backgroundColor: "#4D869C", display: 'flex', alignItems: 'center' }}>
@@ -21,7 +22,7 @@ function Navbar() {
     </div>
     <div className="flex-1"></div>
     <div className='flex-none'>
-        <a className="btn btn-ghost text-xl text-white mr-3">  <FaHome /> Home</a>
+        <MdSpaceDashboard /> <Link className="btn btn-ghost text-xl text-white mr-3" href="/dashboard">Dashboard</Link>
     </div>
 </div>
     );

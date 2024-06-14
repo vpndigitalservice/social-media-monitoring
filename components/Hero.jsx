@@ -6,6 +6,7 @@ import Select,{components} from 'react-select'
 import { FaInstagram, FaFacebook, FaReddit } from 'react-icons/fa';
 import { useState } from 'react';
 import { FaSearch } from "react-icons/fa";
+import Link from 'next/link';
 
 
 const CustomOption = (props) => {
@@ -53,7 +54,7 @@ function Hero(){
         searchBarPlaceholder = `Enter keywords for ${selectedOption.label}`;
     }
 
-   
+  
 
 
 
